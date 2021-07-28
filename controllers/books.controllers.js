@@ -22,7 +22,6 @@ module.exports.bookController = {
     }
 
     try {
-
       const book = await new Book({
         title,
         author,
